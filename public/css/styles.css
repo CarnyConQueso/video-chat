@@ -1,0 +1,64 @@
+#videoPlayer {
+    display: flex;
+    
+    position: absolute;
+    top: 62px;
+    
+    
+    
+  }
+
+  .main{
+    height: 100vh;
+    display: flex;
+  }
+  .main_left{
+    flex: .8;
+    display: flex;
+  }
+  .main_right{
+    display: flex;
+    flex: .2;
+    
+  }
+
+  .main_videos{
+    flex-grow: 1;
+    background-color: white;
+    display:flex;
+
+  }
+
+  
+  .main_controls_block{
+    display: flex;
+    position: fixed; 
+    background-color: #1C1E20;
+    color: #D2D2D2;
+    width: 100%;
+    bottom:0;
+    left: 0;
+}
+
+.main_controls_button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  min-width: 80px;
+  cursor: pointer;
+}
+
+.main_controls_button:hover {
+  background-color: #B43434;
+  border-radius: 5px;
+}
+
+video {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
